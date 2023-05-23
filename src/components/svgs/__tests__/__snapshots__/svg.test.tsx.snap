@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SVG Snapshot Tests SVG renders localSVG  1`] = `
+<svg>
+  This is a local SVG
+</svg>
+`;
+
+exports[`SVG Snapshot Tests SVG renders localSVG with overwritten width/height 1`] = `
+<svg>
+  This is a local SVG
+</svg>
+`;
+
+exports[`SVG Snapshot Tests SVG renders tintable localSVG with black tint 1`] = `
+<svg>
+  This is a local SVG
+</svg>
+`;
+
+exports[`SVG Snapshot Tests SVG renders tintable localSVG with white tint 1`] = `
+<svg>
+  This is a local SVG
+</svg>
+`;

@@ -1,0 +1,1825 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check is all elements are displayed during loading state should display loading text after entering text of react 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "marginTop": 5,
+    }
+  }
+  testID="search-screen"
+>
+  <View
+    style={
+      {
+        "borderBottomWidth": 3,
+        "borderColor": "#000000",
+        "flexBasis": 65,
+        "marginBottom": 5,
+        "width": "100%",
+      }
+    }
+    testID="header"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 0,
+          "bottom": 2,
+          "left": 4,
+          "opacity": 1,
+          "position": "absolute",
+          "right": 4,
+          "top": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "textAlign": "center",
+          }
+        }
+      >
+        The Infatuation
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <SvgMock />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "flexGrow": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "borderRadius": 15,
+            "borderWidth": 0.5,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "margin": 12,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginRight": 8,
+              }
+            }
+          >
+            <SvgMock
+              fill="#cccccc"
+              height={20}
+              width={20}
+            />
+          </View>
+          <TextInput
+            accessibilityLabel="search"
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onEndEditing={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            onSubmitEditing={[Function]}
+            placeholder="Search"
+            style={
+              {
+                "alignSelf": "stretch",
+                "color": "#000000",
+                "flex": 0,
+                "flexDirection": "row",
+                "fontFamily": "Lato-Regular",
+                "fontSize": 14,
+                "fontWeight": "normal",
+                "margin": 0,
+                "marginRight": 10,
+                "padding": 0,
+                "textAlign": "left",
+                "textAlignVertical": "auto",
+                "width": "90%",
+              }
+            }
+            testID="search"
+            underlineColorAndroid="transparent"
+            value="react"
+          />
+          <View
+            style={
+              {
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+              testID="search-icon"
+            >
+              <SvgMock
+                fill="#cccccc"
+                height={20}
+                width={20}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="loading"
+      style={
+        {
+          "fontSize": 18,
+          "padding": 8,
+        }
+      }
+      testID="loading-text"
+    >
+      Loading...
+    </Text>
+  </View>
+  <View>
+    <RCTScrollView
+      ListEmptyComponent={[Function]}
+      data={[]}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={[]}
+      testID="repo-list"
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          style={
+            {
+              "marginTop": 50,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flex": 1,
+                "gap": 10,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#000000",
+                  "fontFamily": "Lato-Bold",
+                  "fontSize": 14,
+                  "marginBottom": 0,
+                }
+              }
+              testID="title"
+            >
+              You haven't searched any repos yet
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#000000",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 12,
+                  "marginBottom": 14,
+                  "marginTop": 0,
+                }
+              }
+            >
+              Why not try to find a repo you like?
+            </Text>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "backgroundColor": "#000000",
+                  "borderRadius": 16,
+                  "opacity": 1,
+                  "paddingHorizontal": 30,
+                  "paddingVertical": 16,
+                }
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  {
+                    "color": "#ffffff",
+                    "fontFamily": "Lato-Bold",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Start Searching
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`check is all elements are displayed when app is loaded no search should render all expected elements 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "marginTop": 5,
+    }
+  }
+  testID="search-screen"
+>
+  <View
+    style={
+      {
+        "borderBottomWidth": 3,
+        "borderColor": "#000000",
+        "flexBasis": 65,
+        "marginBottom": 5,
+        "width": "100%",
+      }
+    }
+    testID="header"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 0,
+          "bottom": 2,
+          "left": 4,
+          "opacity": 1,
+          "position": "absolute",
+          "right": 4,
+          "top": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "textAlign": "center",
+          }
+        }
+      >
+        The Infatuation
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <SvgMock />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "flexGrow": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "borderRadius": 15,
+            "borderWidth": 0.5,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "margin": 12,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginRight": 8,
+              }
+            }
+          >
+            <SvgMock
+              fill="#cccccc"
+              height={20}
+              width={20}
+            />
+          </View>
+          <TextInput
+            accessibilityLabel="search"
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onEndEditing={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            onSubmitEditing={[Function]}
+            placeholder="Search"
+            style={
+              {
+                "alignSelf": "stretch",
+                "color": "#000000",
+                "flex": 0,
+                "flexDirection": "row",
+                "fontFamily": "Lato-Regular",
+                "fontSize": 14,
+                "fontWeight": "normal",
+                "margin": 0,
+                "marginRight": 10,
+                "padding": 0,
+                "textAlign": "left",
+                "textAlignVertical": "auto",
+                "width": "90%",
+              }
+            }
+            testID="search"
+            underlineColorAndroid="transparent"
+          />
+          <View
+            style={
+              {
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+              testID="search-icon"
+            >
+              <SvgMock
+                fill="#cccccc"
+                height={20}
+                width={20}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <RCTScrollView
+      ListEmptyComponent={[Function]}
+      data={[]}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={[]}
+      testID="repo-list"
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          style={
+            {
+              "marginTop": 50,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flex": 1,
+                "gap": 10,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#000000",
+                  "fontFamily": "Lato-Bold",
+                  "fontSize": 14,
+                  "marginBottom": 0,
+                }
+              }
+              testID="title"
+            >
+              You haven't searched any repos yet
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#000000",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 12,
+                  "marginBottom": 14,
+                  "marginTop": 0,
+                }
+              }
+            >
+              Why not try to find a repo you like?
+            </Text>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "backgroundColor": "#000000",
+                  "borderRadius": 16,
+                  "opacity": 1,
+                  "paddingHorizontal": 30,
+                  "paddingVertical": 16,
+                }
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  {
+                    "color": "#ffffff",
+                    "fontFamily": "Lato-Bold",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Start Searching
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`check is all elements are displayed when search results are returned display row data of repo results and no Start Searching button 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "marginTop": 5,
+    }
+  }
+  testID="search-screen"
+>
+  <View
+    style={
+      {
+        "borderBottomWidth": 3,
+        "borderColor": "#000000",
+        "flexBasis": 65,
+        "marginBottom": 5,
+        "width": "100%",
+      }
+    }
+    testID="header"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 0,
+          "bottom": 2,
+          "left": 4,
+          "opacity": 1,
+          "position": "absolute",
+          "right": 4,
+          "top": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "textAlign": "center",
+          }
+        }
+      >
+        The Infatuation
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <SvgMock />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "flexGrow": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "borderRadius": 15,
+            "borderWidth": 0.5,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "margin": 12,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginRight": 8,
+              }
+            }
+          >
+            <SvgMock
+              fill="#cccccc"
+              height={20}
+              width={20}
+            />
+          </View>
+          <TextInput
+            accessibilityLabel="search"
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onEndEditing={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            onSubmitEditing={[Function]}
+            placeholder="Search"
+            style={
+              {
+                "alignSelf": "stretch",
+                "color": "#000000",
+                "flex": 0,
+                "flexDirection": "row",
+                "fontFamily": "Lato-Regular",
+                "fontSize": 14,
+                "fontWeight": "normal",
+                "margin": 0,
+                "marginRight": 10,
+                "padding": 0,
+                "textAlign": "left",
+                "textAlignVertical": "auto",
+                "width": "90%",
+              }
+            }
+            testID="search"
+            underlineColorAndroid="transparent"
+          />
+          <View
+            style={
+              {
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+              testID="search-icon"
+            >
+              <SvgMock
+                fill="#cccccc"
+                height={20}
+                width={20}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <RCTScrollView
+      ListEmptyComponent={[Function]}
+      data={
+        [
+          {
+            "avatarUrl": "http://hellobob.com/images/1",
+            "createdAt": "02/02/2022",
+            "fullName": "jim/react",
+            "id": "1",
+            "isFav": true,
+            "language": "react",
+            "stargazersCount": "10",
+            "url": "http://go-get-bob.com",
+          },
+          {
+            "avatarUrl": "http://hellobob.com/images/1",
+            "createdAt": "02/02/2022",
+            "fullName": "jimBOB/react",
+            "id": "2",
+            "isFav": true,
+            "language": "react",
+            "stargazersCount": "10",
+            "url": "http://go-get-bob.com",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={[]}
+      testID="repo-list"
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityLabel="repo-item0-user-container"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "borderRadius": 5,
+                "borderWidth": 0.5,
+                "flex": 1,
+                "flexDirection": "row",
+                "marginLeft": 20,
+                "marginRight": 15,
+                "opacity": 1,
+              }
+            }
+            testID="repo-item0"
+          >
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "borderRadius": 10,
+                    "elevation": 5,
+                    "justifyContent": "center",
+                    "margin": 5,
+                    "shadowColor": "#000",
+                    "shadowOffset": {
+                      "height": 2,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.95,
+                    "shadowRadius": 4,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    {
+                      "uri": "http://hellobob.com/images/1",
+                    }
+                  }
+                  style={
+                    {
+                      "alignItems": "center",
+                      "aspectRatio": 0.6666666666666666,
+                      "height": 133.4,
+                      "resizeMode": "contain",
+                    }
+                  }
+                  testID="avatar-url"
+                />
+              </View>
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "gap": 10,
+                      "marginVertical": 2,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Name:
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                      }
+                    }
+                    testID="fullName"
+                  >
+                    jim/react
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "gap": 10,
+                      "marginVertical": 2,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Stargazers Count:
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                      }
+                    }
+                    testID="stargazersCount"
+                  >
+                    10
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "gap": 10,
+                      "marginVertical": 2,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Language:
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                      }
+                    }
+                    testID="language"
+                  >
+                    react
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "gap": 10,
+                      "marginVertical": 2,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Year Created:
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                      }
+                    }
+                    testID="createdAt"
+                  >
+                    2022
+                  </Text>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "gap": 10,
+                        "marginVertical": 2,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Link:
+                  </Text>
+                  <View
+                    style={
+                      [
+                        {
+                          "flex": 1,
+                          "marginRight": 15,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "fontFamily": "Lato-Regular",
+                          "fontSize": 12,
+                        }
+                      }
+                      testID="url"
+                    >
+                      http://go-get-bob.com
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  [
+                    {
+                      "justifyContent": "center",
+                      "marginRight": 10,
+                    },
+                  ]
+                }
+              >
+                <SvgMock
+                  fill="#051BFC"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityLabel="repo-item1-user-container"
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "borderRadius": 5,
+                "borderWidth": 0.5,
+                "flex": 1,
+                "flexDirection": "row",
+                "marginLeft": 20,
+                "marginRight": 15,
+                "opacity": 1,
+              }
+            }
+            testID="repo-item1"
+          >
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "borderRadius": 10,
+                    "elevation": 5,
+                    "justifyContent": "center",
+                    "margin": 5,
+                    "shadowColor": "#000",
+                    "shadowOffset": {
+                      "height": 2,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.95,
+                    "shadowRadius": 4,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    {
+                      "uri": "http://hellobob.com/images/1",
+                    }
+                  }
+                  style={
+                    {
+                      "alignItems": "center",
+                      "aspectRatio": 0.6666666666666666,
+                      "height": 133.4,
+                      "resizeMode": "contain",
+                    }
+                  }
+                  testID="avatar-url"
+                />
+              </View>
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "gap": 10,
+                      "marginVertical": 2,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Name:
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                      }
+                    }
+                    testID="fullName"
+                  >
+                    jimBOB/react
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "gap": 10,
+                      "marginVertical": 2,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Stargazers Count:
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                      }
+                    }
+                    testID="stargazersCount"
+                  >
+                    10
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "gap": 10,
+                      "marginVertical": 2,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Language:
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                      }
+                    }
+                    testID="language"
+                  >
+                    react
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "gap": 10,
+                      "marginVertical": 2,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Year Created:
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "fontFamily": "Lato-Regular",
+                        "fontSize": 12,
+                      }
+                    }
+                    testID="createdAt"
+                  >
+                    2022
+                  </Text>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "gap": 10,
+                        "marginVertical": 2,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "flexWrap": "wrap",
+                        "fontFamily": "Lato-Bold",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    Link:
+                  </Text>
+                  <View
+                    style={
+                      [
+                        {
+                          "flex": 1,
+                          "marginRight": 15,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "fontFamily": "Lato-Regular",
+                          "fontSize": 12,
+                        }
+                      }
+                      testID="url"
+                    >
+                      http://go-get-bob.com
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  [
+                    {
+                      "justifyContent": "center",
+                      "marginRight": 10,
+                    },
+                  ]
+                }
+              >
+                <SvgMock
+                  fill="#051BFC"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`display error message display row data of repo results and no Start Searching button 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "marginTop": 5,
+    }
+  }
+  testID="search-screen"
+>
+  <View
+    style={
+      {
+        "borderBottomWidth": 3,
+        "borderColor": "#000000",
+        "flexBasis": 65,
+        "marginBottom": 5,
+        "width": "100%",
+      }
+    }
+    testID="header"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 0,
+          "bottom": 2,
+          "left": 4,
+          "opacity": 1,
+          "position": "absolute",
+          "right": 4,
+          "top": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "textAlign": "center",
+          }
+        }
+      >
+        The Infatuation
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <SvgMock />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "flexGrow": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "borderRadius": 15,
+            "borderWidth": 0.5,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "margin": 12,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "marginRight": 8,
+              }
+            }
+          >
+            <SvgMock
+              fill="#cccccc"
+              height={20}
+              width={20}
+            />
+          </View>
+          <TextInput
+            accessibilityLabel="search"
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onEndEditing={[Function]}
+            onFocus={[Function]}
+            onKeyPress={[Function]}
+            onSubmitEditing={[Function]}
+            placeholder="Search"
+            style={
+              {
+                "alignSelf": "stretch",
+                "color": "#000000",
+                "flex": 0,
+                "flexDirection": "row",
+                "fontFamily": "Lato-Regular",
+                "fontSize": 14,
+                "fontWeight": "normal",
+                "margin": 0,
+                "marginRight": 10,
+                "padding": 0,
+                "textAlign": "left",
+                "textAlignVertical": "auto",
+                "width": "90%",
+              }
+            }
+            testID="search"
+            underlineColorAndroid="transparent"
+          />
+          <View
+            style={
+              {
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+              testID="search-icon"
+            >
+              <SvgMock
+                fill="#cccccc"
+                height={20}
+                width={20}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 18,
+            "padding": 8,
+          },
+          {
+            "color": "red",
+            "fontSize": 18,
+            "padding": 8,
+          },
+        ]
+      }
+      testID="error-message"
+    >
+      Houston we have a problem.
+    </Text>
+  </View>
+  <View>
+    <RCTScrollView
+      ListEmptyComponent={[Function]}
+      data={[]}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={[]}
+      testID="repo-list"
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          style={
+            {
+              "marginTop": 50,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flex": 1,
+                "gap": 10,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#000000",
+                  "fontFamily": "Lato-Bold",
+                  "fontSize": 14,
+                  "marginBottom": 0,
+                }
+              }
+              testID="title"
+            >
+              You haven't searched any repos yet
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#000000",
+                  "fontFamily": "Lato-Regular",
+                  "fontSize": 12,
+                  "marginBottom": 14,
+                  "marginTop": 0,
+                }
+              }
+            >
+              Why not try to find a repo you like?
+            </Text>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "backgroundColor": "#000000",
+                  "borderRadius": 16,
+                  "opacity": 1,
+                  "paddingHorizontal": 30,
+                  "paddingVertical": 16,
+                }
+              }
+              testID="button"
+            >
+              <Text
+                style={
+                  {
+                    "color": "#ffffff",
+                    "fontFamily": "Lato-Bold",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Start Searching
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

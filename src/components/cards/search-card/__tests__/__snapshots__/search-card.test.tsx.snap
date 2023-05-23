@@ -1,0 +1,585 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Card is displayed check fav icon is active 1`] = `
+<View
+  accessibilityLabel="1-user-container"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "borderRadius": 5,
+      "borderWidth": 0.5,
+      "flex": 1,
+      "flexDirection": "row",
+      "marginLeft": 20,
+      "marginRight": 15,
+      "opacity": 1,
+    }
+  }
+  testID="1"
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "borderRadius": 10,
+          "elevation": 5,
+          "justifyContent": "center",
+          "margin": 5,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.95,
+          "shadowRadius": 4,
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "uri": "https://fastly.picsum.photos/id/1059/200/300.jpg?hmac=YMMfXR3NQPHd070_dI4t9aZU990UmWDRKmklFNF6xMw",
+          }
+        }
+        style={
+          {
+            "alignItems": "center",
+            "aspectRatio": 0.6666666666666666,
+            "height": 133.4,
+            "resizeMode": "contain",
+          }
+        }
+        testID="avatar-url"
+      />
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+          "flexDirection": "column",
+          "marginLeft": 5,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 10,
+            "marginVertical": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Name:
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+            }
+          }
+          testID="fullName"
+        >
+          hello jim
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 10,
+            "marginVertical": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Stargazers Count:
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+            }
+          }
+          testID="stargazersCount"
+        >
+          10
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 10,
+            "marginVertical": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Language:
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+            }
+          }
+          testID="language"
+        >
+          react
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 10,
+            "marginVertical": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Year Created:
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+            }
+          }
+          testID="createdAt"
+        >
+          2023
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "gap": 10,
+              "marginVertical": 2,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Link:
+        </Text>
+        <View
+          style={
+            [
+              {
+                "flex": 1,
+                "marginRight": 15,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "fontFamily": "Lato-Regular",
+                "fontSize": 12,
+              }
+            }
+            testID="url"
+          >
+            http://bob.com
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "justifyContent": "center",
+            "marginRight": 10,
+          },
+        ]
+      }
+    >
+      <SvgMock
+        fill="#051BFC"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Search Card is displayed check fav icon is inactive 1`] = `
+<View
+  accessibilityLabel="1-user-container"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "borderRadius": 5,
+      "borderWidth": 0.5,
+      "flex": 1,
+      "flexDirection": "row",
+      "marginLeft": 20,
+      "marginRight": 15,
+      "opacity": 1,
+    }
+  }
+  testID="1"
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "borderRadius": 10,
+          "elevation": 5,
+          "justifyContent": "center",
+          "margin": 5,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.95,
+          "shadowRadius": 4,
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "uri": "https://fastly.picsum.photos/id/1059/200/300.jpg?hmac=YMMfXR3NQPHd070_dI4t9aZU990UmWDRKmklFNF6xMw",
+          }
+        }
+        style={
+          {
+            "alignItems": "center",
+            "aspectRatio": 0.6666666666666666,
+            "height": 133.4,
+            "resizeMode": "contain",
+          }
+        }
+        testID="avatar-url"
+      />
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+          "flexDirection": "column",
+          "marginLeft": 5,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 10,
+            "marginVertical": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Name:
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+            }
+          }
+          testID="fullName"
+        >
+          hello jim
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 10,
+            "marginVertical": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Stargazers Count:
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+            }
+          }
+          testID="stargazersCount"
+        >
+          10
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 10,
+            "marginVertical": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Language:
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+            }
+          }
+          testID="language"
+        >
+          react
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "gap": 10,
+            "marginVertical": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Year Created:
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Lato-Regular",
+              "fontSize": 12,
+            }
+          }
+          testID="createdAt"
+        >
+          2023
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "gap": 10,
+              "marginVertical": 2,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "flexWrap": "wrap",
+              "fontFamily": "Lato-Bold",
+              "fontSize": 12,
+            }
+          }
+        >
+          Link:
+        </Text>
+        <View
+          style={
+            [
+              {
+                "flex": 1,
+                "marginRight": 15,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "fontFamily": "Lato-Regular",
+                "fontSize": 12,
+              }
+            }
+            testID="url"
+          >
+            http://bob.com
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "justifyContent": "center",
+            "marginRight": 10,
+          },
+        ]
+      }
+    >
+      <SvgMock
+        fill="#C2BABA"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Search Card is displayed displays the repo image 1`] = `undefined`;
